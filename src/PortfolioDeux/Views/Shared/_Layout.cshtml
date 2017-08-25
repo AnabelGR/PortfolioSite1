@@ -12,7 +12,8 @@
     <!-- UIkit JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.28/js/uikit.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.28/js/uikit-icons.min.js"></script>
-    
+
+    <script src="~/bower_components/uikit/src/js/uikit.js"></script>
     <link href="~/CSS/styles.css" rel="stylesheet" />
     <script src="~/JS/scripts.js"></script>
     <title>@ViewBag.Title</title>
@@ -25,15 +26,16 @@
 
             <ul class="uk-nav uk-nav-default">
                 <li class="uk-nav-header">work</li>
-                <li><a href="#">csharp coding projects</a></li>
-                <li><a href="#">javascript | angular coding projects</a></li>
-                <li><a href="#">print design</a></li>
-                <li><a href="#">branding</a></li>
+                <li>@Html.ActionLink("csharp | javascript | angular coding projects", "Projects", "Portfolio")
+                </li>
+                <li>
+                   @Html.ActionLink("art director | editorial design", "Design", "Portfolio")</li>
+                <li>@Html.ActionLink("web designs", "WebDesign", "Portfolio")</li>
                 <li class="uk-nav-divider"></li>
                 <li class="uk-nav-header">about</li>
-                <li><a href="#">bio</a></li>
-                <li><a href="#">references | cv</a></li>
-                <li><a href="#">get in touch</a></li>
+                <li>@Html.ActionLink("bio", "Bio", "Home")</li>
+                <li>@Html.ActionLink("references | cv", "ReferencesCV", "Home")</li>
+                <li>@Html.ActionLink("get in touch", "GetInTouch", "Home")</li>
             </ul>
 
         </div>

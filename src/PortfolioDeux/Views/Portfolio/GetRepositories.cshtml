@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Portfolio";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model IEnumerable<PortfolioDeux.Models.Repository>
+
+<div class="uk-panel">
+   @foreach (var repository in Model)
+   {
+    <li>
+        <ul>
+            <li>Repository: @Html.DisplayFor(modelItem => repository.starred_url)</li>
+        </ul>
+    </li>
+   }
+</ol>
+
+</div>

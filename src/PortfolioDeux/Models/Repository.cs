@@ -11,13 +11,14 @@ namespace PortfolioDeux.Models
 {
     public class Repository
     {
+        public string name { get; set; }
         public string starred_url { get; set; }
 
     public static List<Repository> GetRepositories()
     {
-        var client = new RestClient("https://api.github.com/user");
+        var client = new RestClient("https://api.github.com/user/starred");
         var request = new RestRequest(Method.GET);
-        client.Authenticator = new HttpBasicAuthenticator(EnviromentalVariables.username, EnviromentalVariables.password);
+        client.Authenticator = new HttpBasicAuthenticator(EnvironmentVariables.username, EnvironmentVariables.password);
         var response = new RestResponse();
         Task.Run(async () =>
         {
@@ -28,17 +29,6 @@ namespace PortfolioDeux.Models
         return repositoryList;
     }
 
-    public void Send()
-    {
-        var client = new RestClient("https://api.github.com/user");
-        var request = new RestRequest(Method.POST);
-        request.AddParameter("Starred Repositories: ", starred_url);
-        client.Authenticator = new HttpBasicAuthenticator(EnviromentalVariables.username, EnviromentalVariables.password);
-        client.ExecuteAsync(request, response => {
-            Console.WriteLine(response.Content);
-        });
-    }
-
     public static Task<IRestResponse> GetResponseContentAsync(RestClient theClient, RestRequest theRequest)
     {
         var tcs = new TaskCompletionSource<IRestResponse>();
@@ -47,5 +37,5 @@ namespace PortfolioDeux.Models
         });
         return tcs.Task;
     }
-}
+    }
 }

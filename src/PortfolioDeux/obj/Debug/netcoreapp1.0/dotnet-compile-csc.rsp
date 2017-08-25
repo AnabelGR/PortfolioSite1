@@ -217,5 +217,6 @@
 "C:\Users\Anabel\Desktop\PortfolioDeux\src\PortfolioDeux\Controllers\PortfolioController.cs"
 "C:\Users\Anabel\Desktop\PortfolioDeux\src\PortfolioDeux\Models\ApplicationUser.cs"
 "C:\Users\Anabel\Desktop\PortfolioDeux\src\PortfolioDeux\Models\Contact.cs"
-"C:\Users\Anabel\Desktop\PortfolioDeux\src\PortfolioDeux\Models\Inquiry.cs"
+"C:\Users\Anabel\Desktop\PortfolioDeux\src\PortfolioDeux\Models\EnvironmentVariables.cs"
 "C:\Users\Anabel\Desktop\PortfolioDeux\src\PortfolioDeux\Models\PortfolioDeuxDbContext.cs"
+"C:\Users\Anabel\Desktop\PortfolioDeux\src\PortfolioDeux\Models\Repository.cs"
