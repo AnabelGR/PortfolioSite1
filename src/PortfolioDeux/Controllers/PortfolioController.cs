@@ -25,7 +25,11 @@ namespace PortfolioDeux.Controllers
         {
             return View();
         }
-        public IActionResult GeteRpositories()
+        public IActionResult Illustration()
+        {
+            return View();
+        }
+        public IActionResult GetRpositories()
         {
             var allRepositories = Repository.GetRepositories();
             return View(allRepositories);
