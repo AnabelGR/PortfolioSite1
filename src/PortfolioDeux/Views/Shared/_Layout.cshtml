@@ -27,38 +27,35 @@
                     <p style="color:white;">print + web design<br />by Anabel Ramirez</p>
                 </div>
                 <div class="uk-navbar-content uk-navbar-center">
-                    <img src="~/images/logo.png" width="100" />
+                   <img src="~/images/logo.png" width="100" />
                 </div>
-                <div class="uk-navbar-content uk-navbar-right"><a href="#offcanvas-slide" uk-toggle style="text-decoration:none; color:white;">MENU</a></div>
+                <div class="uk-navbar-content uk-navbar-right"><a href="#offcanvas-slide" uk-toggle style="text-decoration:none; color:white;">MENU</a>
+                    <ul> @Html.ActionLink("Home", "Index", "Home")</ul>
+                </div>
 
                 <a href="" class="uk-navbar-toggle"></a>
             </nav>
         </div>
-
 
         <div id="offcanvas-slide" uk-offcanvas>
             <div class="uk-offcanvas-bar linkstyle">
 
                 <ul class="uk-nav uk-nav-default">
                     <li class="uk-nav-header">work</li>
-                    <li>
-                        @Html.ActionLink("csharp | javascript | angular coding projects", "Projects", "Portfolio")
-                </li>
-                <li>
-                    @Html.ActionLink("art director | editorial design", "Design", "Portfolio")
-                </li>
-                <li>@Html.ActionLink("web design", "WebDesign", "Portfolio")</li>
-                <li class="uk-nav-divider"></li>
-                <li class="uk-nav-header">about</li>
-                <li>@Html.ActionLink("bio", "Bio", "Home")</li>
-                <li>@Html.ActionLink("get in touch", "GetInTouch", "Home")</li>
+                    <li> @Html.ActionLink("csharp | javascript | angular coding projects", "Projects", "Portfolio")</li>
+                    <li> @Html.ActionLink("art director | editorial design", "Design", "Portfolio")</li>
+                    <li>@Html.ActionLink("web design", "WebDesign", "Portfolio")</li>
+                    <li>@Html.ActionLink("illustration", "Illustration", "Portfolio")</li>
+                    <li class="uk-nav-divider"></li>
+                    <li class="uk-nav-header">about</li>
+                    <li>@Html.ActionLink("bio", "Bio", "Home")</li>
+                    <li>@Html.ActionLink("get in touch", "GetInTouch", "Home")</li>
             </ul>
         </div>
     </div>
-        </div>
+</div>
     <div class="uk-container">
         @RenderBody()
     </div>
-</div>
 </body>
 </html>
