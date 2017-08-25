@@ -3,9 +3,41 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.28/css/uikit.min.css" />
+
+    <!-- jQuery is required -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- UIkit JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.28/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.28/js/uikit-icons.min.js"></script>
+    
+    <link href="~/CSS/styles.css" rel="stylesheet" />
+    <script src="~/JS/scripts.js"></script>
     <title>@ViewBag.Title</title>
 </head>
 <body>
+    <a href="#offcanvas-slide" class="uk-button uk-button-danger" uk-toggle>menu</a>
+
+    <div id="offcanvas-slide" uk-offcanvas>
+        <div class="uk-offcanvas-bar">
+
+            <ul class="uk-nav uk-nav-default">
+                <li class="uk-nav-header">work</li>
+                <li><a href="#">csharp coding projects</a></li>
+                <li><a href="#">javascript | angular coding projects</a></li>
+                <li><a href="#">print design</a></li>
+                <li><a href="#">branding</a></li>
+                <li class="uk-nav-divider"></li>
+                <li class="uk-nav-header">about</li>
+                <li><a href="#">bio</a></li>
+                <li><a href="#">references | cv</a></li>
+                <li><a href="#">get in touch</a></li>
+            </ul>
+
+        </div>
+    </div>
     <div>
         @RenderBody()
     </div>

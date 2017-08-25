@@ -1,0 +1,15 @@
+{
+  "name": "uikit",
+  "homepage": "https://github.com/uikit/uikit",
+  "version": "2.26.2",
+  "_release": "2.26.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "v2.26.2",
+    "commit": "f748d07dc0e0e37bd4093cf20f7c4fc070245f10"
+  },
+  "_source": "https://github.com/uikit/uikit.git",
+  "_target": "2.26.2",
+  "_originalSource": "uikit",
+  "_direct": true
+}
