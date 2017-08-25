@@ -1,4 +1,34 @@
 ﻿@{
-    ViewData["Title"] = "Portfolio";
+    ViewData["Title"] = "Bio";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+
+<div class="uk-panel">
+    <div class="uk-panel-title">
+        <h2>bio</h2>
+    </div>
+    <div class="uk-panel-content">
+        <p>
+            I have been designing since 1994. I began as an Art Director for Boise Weekly after six weeks as the ad designer. I learned all the pre-Adobe products on the job and stayed on for four years continually updating the design, implementing a website, and changing the printing process from paper seperations to digital pdf submissions. I kept working in the newsprint industry primarily with jobs at The Rocket, Willamette Week, Portland Mercury, and Just Out.
+        </p>
+        <p>
+           My knowledge of both digital and print publication continues. I am currently working as a full stack developer for Apparent Systems where I am working on C# coding and designing catalogs for our clients. I also developed and maintained the website for Rising Room Gallery and produced the print artists books published for each exhibition through Lulu.
+        </p>
+        <p>I have a Bachelor’s degree in English, a Master’s degree in Book Publishing, and most recently, took an intensive 20-week coding academy with hands-on experience using .Net languages to create and implement software applications. I enjoy being challenged by projects that require me to work outside of my comfort and knowledge set. Continuing to learn new languages and development techniques are important to me.
+        </p>
+    </div>
+    <div class="uk-panel-title">
+        <h2>resume | cv</h2>
+    </div>
+    <div class="uk-panel-content linkstyle">
+        <p>@Html.ActionLink("resume | cv", "ReferencesCV", "Home")</p>
+    </div>
+    <div class="uk-panel-title">
+        <h2>references</h2>
+    </div>
+    <div class="uk-panel-content">
+        <p>Petr Sorfa, Apparent Systems, Inc</p>
+        <p>Kathrine Ledoboer, Art Cult/The Dahll Haus</p>
+        <p>Kathrine Topaz, Topaz Agency</p>
+    </div>
+</div>
