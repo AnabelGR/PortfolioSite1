@@ -15,7 +15,7 @@
     <!-- UIkit JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.28/js/uikit.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.28/js/uikit-icons.min.js"></script>
-
+    <script src="https://use.fontawesome.com/c3a95916f1.js"></script>
 
     <title>@ViewBag.Title</title>
 </head>
@@ -24,13 +24,12 @@
         <div class="uk-nav-header">
             <nav class="uk-navbar-center">
                 <div class="uk-navbar-content uk-navbar-left">
-                    <p style="color:white;">print + web design<br />by Anabel Ramirez</p>
                 </div>
                 <div class="uk-navbar-content uk-navbar-center">
                    <img src="~/images/logo.png" width="100" />
                 </div>
                 <div class="uk-navbar-content uk-navbar-right"><a href="#offcanvas-slide" uk-toggle style="text-decoration:none; color:white;">MENU</a>
-                    <ul> @Html.ActionLink("Home", "Index", "Home")</ul>
+                    <ul> @Html.ActionLink("Home", "Index", "Home", null, new { @style = "color:white;" })</ul>
                 </div>
 
                 <a href="" class="uk-navbar-toggle"></a>
@@ -39,17 +38,22 @@
 
         <div id="offcanvas-slide" uk-offcanvas>
             <div class="uk-offcanvas-bar linkstyle">
-
-                <ul class="uk-nav uk-nav-default">
-                    <li class="uk-nav-header">work</li>
-                    <li> @Html.ActionLink("csharp | javascript | angular coding projects", "Projects", "Portfolio")</li>
-                    <li> @Html.ActionLink("art director | editorial design", "Design", "Portfolio")</li>
-                    <li>@Html.ActionLink("web design", "WebDesign", "Portfolio")</li>
-                    <li>@Html.ActionLink("illustration", "Illustration", "Portfolio")</li>
-                    <li class="uk-nav-divider"></li>
-                    <li class="uk-nav-header">about</li>
-                    <li>@Html.ActionLink("bio", "Bio", "Home")</li>
-                    <li>@Html.ActionLink("get in touch", "GetInTouch", "Home")</li>
+            <ul class="uk-nav uk-nav-default">
+                <li class="uk-nav-header">work</li>
+                <li> @Html.ActionLink("csharp | javascript | angular coding projects", "Projects", "Portfolio")</li>
+                <li> @Html.ActionLink("art director | editorial design", "Design", "Portfolio")</li>
+                <li>@Html.ActionLink("web design", "WebDesign", "Portfolio")</li>
+                <li>@Html.ActionLink("illustration", "Illustration", "Portfolio")</li>
+                <li class="uk-nav-divider"></li>
+                <li class="uk-nav-header">about</li>
+                <li>@Html.ActionLink("bio", "Bio", "Home")</li>
+                <li>@Html.ActionLink("get in touch", "GetInTouch", "Home")</li>
+                <li class="uk-nav-divider"></li>
+                <li class="uk-nav-header">links</li>
+                <li class="fa-ul">
+                    <p><a href="https://www.linkedin.com/in/anabel-ramirez"><i class="fa fa-linkedin"></i></a><br /><a href="https://www.behance.net/amatorah"> <i class="fa fa-behance"></i> </a>   </p>
+  
+                </li>
             </ul>
         </div>
     </div>
