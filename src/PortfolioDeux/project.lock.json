@@ -1047,12 +1047,12 @@
           "lib/netstandard1.6/Microsoft.DotNet.ProjectModel.Loader.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore/1.1.0": {
+      "Microsoft.EntityFrameworkCore/1.1.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Caching.Memory": "1.1.0",
+          "Microsoft.Extensions.Caching.Memory": "1.1.1",
           "Microsoft.Extensions.DependencyInjection": "1.1.0",
-          "Microsoft.Extensions.Logging": "1.1.0",
+          "Microsoft.Extensions.Logging": "1.1.1",
           "NETStandard.Library": "1.6.1",
           "Remotion.Linq": "2.1.1",
           "System.Collections.Immutable": "1.3.0",
@@ -1097,7 +1097,7 @@
           "lib/netstandard1.3/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
         }
       },
-      "Microsoft.Extensions.Caching.Abstractions/1.1.0": {
+      "Microsoft.Extensions.Caching.Abstractions/1.1.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Primitives": "1.1.0",
@@ -1110,12 +1110,12 @@
           "lib/netstandard1.0/Microsoft.Extensions.Caching.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Caching.Memory/1.1.0": {
+      "Microsoft.Extensions.Caching.Memory/1.1.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Caching.Abstractions": "1.1.0",
+          "Microsoft.Extensions.Caching.Abstractions": "1.1.1",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "1.1.0",
-          "Microsoft.Extensions.Options": "1.1.0",
+          "Microsoft.Extensions.Options": "1.1.1",
           "NETStandard.Library": "1.6.1"
         },
         "compile": {
@@ -1461,7 +1461,7 @@
           "lib/netstandard1.3/Microsoft.Extensions.ObjectPool.dll": {}
         }
       },
-      "Microsoft.Extensions.Options/1.1.0": {
+      "Microsoft.Extensions.Options/1.1.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "1.1.0",
@@ -7159,12 +7159,12 @@
         "lib/netstandard1.6/Microsoft.DotNet.ProjectModel.Loader.dll"
       ]
     },
-    "Microsoft.EntityFrameworkCore/1.1.0": {
-      "sha512": "S00vr6pLeoCMbm1PsXNZIceCAA/TUX83W3f2PcLFLGrx2QnGo5aqhtYjHvBhOVKJXZmt52EKEdORoTZVZ/swww==",
+    "Microsoft.EntityFrameworkCore/1.1.1": {
+      "sha512": "wkPi/5FriMthUoCBjqO/hCDEGdRrJ5aTGKa9jGHK7NYw1uSxb2FXksBuqqMfFve3sd2j4+9BpYtdvAJ6fzjeXg==",
       "type": "package",
-      "path": "Microsoft.EntityFrameworkCore/1.1.0",
+      "path": "Microsoft.EntityFrameworkCore/1.1.1",
       "files": [
-        "Microsoft.EntityFrameworkCore.1.1.0.nupkg.sha512",
+        "Microsoft.EntityFrameworkCore.1.1.1.nupkg.sha512",
         "Microsoft.EntityFrameworkCore.nuspec",
         "lib/net451/Microsoft.EntityFrameworkCore.dll",
         "lib/net451/Microsoft.EntityFrameworkCore.xml",
@@ -7198,28 +7198,28 @@
         "lib/netstandard1.3/Microsoft.EntityFrameworkCore.SqlServer.xml"
       ]
     },
-    "Microsoft.Extensions.Caching.Abstractions/1.1.0": {
-      "sha512": "uMbUDz/lNoO9LGc+DSjKMLWJk+y4qX6syDRcmQC0w6LSQzizkRqmo5Y8jO0ePtZRjF2lSGgO5URt4YgB6STDBQ==",
+    "Microsoft.Extensions.Caching.Abstractions/1.1.1": {
+      "sha512": "vdYjdS3/9Hk7mYffPe8D6DJTaXmBmY+CGha2GPA83de1w0qWNBeD8Kja5EKaXkO0IPyxPq+jIMYZSygR6sNaSg==",
       "type": "package",
-      "path": "Microsoft.Extensions.Caching.Abstractions/1.1.0",
+      "path": "Microsoft.Extensions.Caching.Abstractions/1.1.1",
       "files": [
-        "Microsoft.Extensions.Caching.Abstractions.1.1.0.nupkg.sha512",
-        "Microsoft.Extensions.Caching.Abstractions.nuspec",
         "lib/netstandard1.0/Microsoft.Extensions.Caching.Abstractions.dll",
-        "lib/netstandard1.0/Microsoft.Extensions.Caching.Abstractions.xml"
+        "lib/netstandard1.0/Microsoft.Extensions.Caching.Abstractions.xml",
+        "microsoft.extensions.caching.abstractions.1.1.1.nupkg.sha512",
+        "microsoft.extensions.caching.abstractions.nuspec"
       ]
     },
-    "Microsoft.Extensions.Caching.Memory/1.1.0": {
-      "sha512": "ihFzFRKf/LrXHIvn0wDDt6oLxaAjsCPfrIzV9CLrTURD7qT+HujJ0TaRfC91e6tB8OAgkzY4AsHRBNq8KzrQQQ==",
+    "Microsoft.Extensions.Caching.Memory/1.1.1": {
+      "sha512": "YEmnPVsIY5ONBQ9KHtMeOyd9K2syqMBrxAoQy5t14CsYl21m3l0VGjYAyb1zCR5j/SS/gjEMUFUkZAa5I+ntjA==",
       "type": "package",
-      "path": "Microsoft.Extensions.Caching.Memory/1.1.0",
+      "path": "Microsoft.Extensions.Caching.Memory/1.1.1",
       "files": [
-        "Microsoft.Extensions.Caching.Memory.1.1.0.nupkg.sha512",
-        "Microsoft.Extensions.Caching.Memory.nuspec",
         "lib/net451/Microsoft.Extensions.Caching.Memory.dll",
         "lib/net451/Microsoft.Extensions.Caching.Memory.xml",
         "lib/netstandard1.3/Microsoft.Extensions.Caching.Memory.dll",
-        "lib/netstandard1.3/Microsoft.Extensions.Caching.Memory.xml"
+        "lib/netstandard1.3/Microsoft.Extensions.Caching.Memory.xml",
+        "microsoft.extensions.caching.memory.1.1.1.nupkg.sha512",
+        "microsoft.extensions.caching.memory.nuspec"
       ]
     },
     "Microsoft.Extensions.CommandLineUtils/1.0.0": {
@@ -7495,15 +7495,15 @@
         "lib/netstandard1.3/Microsoft.Extensions.ObjectPool.xml"
       ]
     },
-    "Microsoft.Extensions.Options/1.1.0": {
-      "sha512": "NZlEcVm+SPPeNAkYuwiZdqnMrs/Lne/cDAWiBal1EL//m/KjDgOC6jKg5m9rt/cvqb7Obql5e0JtkNmdP1fGQA==",
+    "Microsoft.Extensions.Options/1.1.1": {
+      "sha512": "INBaipnWiXpfc6dCKpAaUaJQNSFGYOCHN6ThDinBOELfzRLLVM5TsxhT0nwM9uWJ6Ex6uiyGDpTPuOF2T0V3DQ==",
       "type": "package",
-      "path": "Microsoft.Extensions.Options/1.1.0",
+      "path": "Microsoft.Extensions.Options/1.1.1",
       "files": [
-        "Microsoft.Extensions.Options.1.1.0.nupkg.sha512",
-        "Microsoft.Extensions.Options.nuspec",
         "lib/netstandard1.0/Microsoft.Extensions.Options.dll",
-        "lib/netstandard1.0/Microsoft.Extensions.Options.xml"
+        "lib/netstandard1.0/Microsoft.Extensions.Options.xml",
+        "microsoft.extensions.options.1.1.1.nupkg.sha512",
+        "microsoft.extensions.options.nuspec"
       ]
     },
     "Microsoft.Extensions.Options.ConfigurationExtensions/1.0.0": {
@@ -13437,6 +13437,7 @@
       "Microsoft.AspNetCore.Server.IISIntegration >= 1.0.0",
       "Microsoft.AspNetCore.Server.Kestrel >= 1.0.1",
       "Microsoft.AspNetCore.StaticFiles >= 1.0.0",
+      "Microsoft.EntityFrameworkCore >= 1.1.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 1.0.3",
       "Microsoft.Extensions.Configuration.EnvironmentVariables >= 1.0.0",
       "Microsoft.Extensions.Configuration.Json >= 1.0.0",

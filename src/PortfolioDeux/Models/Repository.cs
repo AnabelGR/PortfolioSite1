@@ -1,41 +1,41 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using RestSharp;
-using RestSharp.Authenticators;
+﻿using System.Collections.Generic;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using RestSharp;
+using RestSharp.Extensions.MonoHttp;
+using Microsoft.EntityFrameworkCore;
 
 namespace PortfolioDeux.Models
 {
     public class Repository
     {
-        public string name { get; set; }
-        public string starred_url { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Html_Url { get; set; }
+        public string Description { get; set; }
 
-    public static List<Repository> GetRepositories()
-    {
-        var client = new RestClient("https://api.github.com/user/starred");
-        var request = new RestRequest(Method.GET);
-        client.Authenticator = new HttpBasicAuthenticator(EnvironmentVariables.username, EnvironmentVariables.password);
-        var response = new RestResponse();
-        Task.Run(async () =>
+
+        public static List<Repository> GetRepositories()
         {
-            response = await GetResponseContentAsync(client, request) as RestResponse;
-        }).Wait();
-        JObject jsonResponse = JsonConvert.DeserializeObject<JObject>(response.Content);
-        var repositoryList = JsonConvert.DeserializeObject<List<Repository>>(jsonResponse["repositories"].ToString());
-        return repositoryList;
-    }
+            RestSharp.Deserializers.JsonDeserializer deserial = new RestSharp.Deserializers.JsonDeserializer();
+            //Get base url
+            var client = new RestClient(" https://api.github.com");
+            var request = new RestSharp.RestRequest("search/repositories", Method.GET);
 
-    public static Task<IRestResponse> GetResponseContentAsync(RestClient theClient, RestRequest theRequest)
-    {
-        var tcs = new TaskCompletionSource<IRestResponse>();
-        theClient.ExecuteAsync(theRequest, response => {
-            tcs.SetResult(response);
-        });
-        return tcs.Task;
-    }
+            //Add headers
+            request.AddHeader("User-Agent", "AnabelGR");
+            request.AddHeader("Authorization", "token " + EnvironmentVariables.AccessToken);
+
+            //Add params
+            var param = HttpUtility.UrlDecode("user:kimlan1510+stars:>=1");
+            request.AddParameter("q", param);
+            request.AddParameter("per_page", "3");
+
+            //Execute
+            IRestResponse response = client.Execute(request);
+            JObject jsonResponse = JsonConvert.DeserializeObject<JObject>(response.Content);
+            var repoList = JsonConvert.DeserializeObject<List<Repository>>(jsonResponse["items"].ToString());
+            return repoList;
+        }
     }
 }
