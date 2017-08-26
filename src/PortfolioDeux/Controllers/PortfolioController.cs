@@ -25,10 +25,10 @@ namespace PortfolioDeux.Controllers
         {
             return View();
         }
-        public IActionResult GetRpositories()
+        public IActionResult GetRepos()
         {
-            var allRepositories = Repository.GetRepositories();
-            return View(allRepositories);
+            var allRepos = Repo.GetRepos();
+            return View(allRepos);
         }
     }
 }

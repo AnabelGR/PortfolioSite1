@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Portfolio";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model IEnumerable<PortfolioDeux.Models.Repo>
+
+<div class="uk-container">
+    <div class="uk-panel">
+        <h2>Starred GitHub Repositories</h2>
+        @foreach (var repo in Model)
+        {
+            <ul class="uk-link-muted">
+                <li>@Html.DisplayFor(modelRepo => repo.name)</li>
+                <li>@Html.DisplayFor(modelRepo => repo.stargazers_count)</li>
+            </ul>
+        }
+
+    </div>
+</div>
