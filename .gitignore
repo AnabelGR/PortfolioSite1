@@ -10,8 +10,12 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
+# api keys
 EnvironmentVariables.cs
 
+# bower
+bower_components
+bower_components/
 
 # Build results
 [Dd]ebug/
