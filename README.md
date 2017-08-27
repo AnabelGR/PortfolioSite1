@@ -13,6 +13,18 @@ A webpage to showcase personal work using GitHub API.
 |Landing Page |
 |About Page |
 |Projects Page with starred GitHub respositories|
+|Print Portfolio Page with slideshow of work|
+|Web Design Page with work and details about each project|
+|Links to other professional web hosted portfolio profiles|
+
+
+|Elements still to work on|
+|---|
+|Contact Form Page with authentication and sql server |
+|Add more functionality to github repo api|
+|About Page Resume attachment, link references |
+|Illustration Portfolio Page needs to be built|
+|Add samples and details to coding, web, print design pages|
 
 
 ## Setup/Installation Requirements
@@ -23,7 +35,10 @@ If you do not have Visual Studio 2015, download [HERE](https://www.visualstudio.
 
 If you do not have SSMS, download [HERE](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms).
 
-Cloning From GitHub: Download or clone project repository onto desktop from GitHub using this [link](https://github.com/AnabelGR/Seafood.git).
+Cloning From GitHub: Download or clone project repository onto desktop from GitHub using this [link](https://github.com/AnabelGR/PortfolioDeux.git). In the command terminal, navigate to the src/PortfolioDeux folder and run the following command to restore packages:
+```terminal
+dotnet restore
+```
 
 Open the project in Visual Studio.
 
@@ -40,7 +55,20 @@ dotnet ef database update
 6. Back in Visual Studio, click 'IIS Express' at the top of the window. Project will open in a new localhost window on your default browser.
 
 ## Screenshots
+![Index](portfolioSC/index.JPG)
+Index Page
 
+![Menu](portfolioSC/menu.JPG)
+Menu Side Drawer
+
+![Coding Portfolio](portfolioSC/codingPortfolio.JPG)
+Coding Portfolio Page
+
+![Bio About](portfolioSC/bio-about.JPG)
+Bio / About Page
+
+![Print Portfolio](portfolioSC/printPortfolio.JPG)
+Print Portfolio with slideshow of work
 
 ## Support and contact details
 
