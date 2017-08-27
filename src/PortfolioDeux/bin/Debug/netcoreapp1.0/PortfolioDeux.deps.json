@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.0",
-    "signature": "d7f54bffefdcc613ad664f2012e415f8fe7d0935"
+    "signature": "f8d836cb754785edd322821772f79d14964b5645"
   },
   "compilationOptions": {
     "defines": [
@@ -39,7 +39,8 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "1.0.3",
           "jQuery": "3.1.1",
           "Microsoft.EntityFrameworkCore": "1.1.1",
-          "Microsoft.Build.Utilities.Core": "15.1.548"
+          "Microsoft.Build.Utilities.Core": "15.1.548",
+          "uikit-addons": "2.21.0"
         },
         "runtime": {
           "PortfolioDeux.dll": {}
@@ -3381,6 +3382,16 @@
           "ref/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "uikit/2.21.0": {
+        "dependencies": {
+          "jQuery": "3.1.1"
+        }
+      },
+      "uikit-addons/2.21.0": {
+        "dependencies": {
+          "uikit": "2.21.0"
+        }
+      },
       "Libuv/1.9.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
@@ -5070,6 +5081,16 @@
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-FrazwwqfIXTfq23mfv4zH+BjqkSFNaNFBtjzu3I9NRmG8EELYyrv/fJnttCIwRMFRR/YKXF1hmsMmMEnl55HGw=="
+    },
+    "uikit/2.21.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LnHSLCI0LSH00vMaoSjjtHQclDyvO8W1W8Yn/OgTA2hO5OQTizxJAuFYRahumBnVjbGwWuTTJn/P6fxskzQpvg=="
+    },
+    "uikit-addons/2.21.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jPfmOGxdAvbarK/rzZSR4G0wedGqTMVUDN9vxJGAby7NsZ6ny7nlB+X3lPDQdES8utzCtpc1oYuZFv6V9vrQxA=="
     },
     "Libuv/1.9.0": {
       "type": "package",

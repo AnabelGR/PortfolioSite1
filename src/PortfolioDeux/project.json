@@ -30,7 +30,8 @@
     "Microsoft.EntityFrameworkCore.SqlServer": "1.0.3",
     "jQuery": "3.1.1",
     "Microsoft.EntityFrameworkCore": "1.1.1",
-    "Microsoft.Build.Utilities.Core": "15.1.548"
+    "Microsoft.Build.Utilities.Core": "15.1.548",
+    "uikit-addons": "2.21.0"
   },
 
   "tools": {

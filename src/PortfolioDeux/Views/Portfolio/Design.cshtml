@@ -4,45 +4,55 @@
 }
 
 <div class="uk-container uk-padding">
-    <div class="uk-panel uk-panel-box">
-        <div class="uk-header">
-            <h2>Art Direction and Print Design</h2>
-        </div>
-        <div class="uk-panel uk-panel-panel-box uk-width-1-2">
-            <p>I have been an art director and designer of editorial and advertising content at a variety of newsweeklies since 1994. I have also created probono design for nonprofits such as 2Gyrlz and PNCA.</p>
-        </div>
+    <div class="uk-header">
+        <h2>Art Direction and Print Design</h2>
+    </div>
+    <div class="uk-panel uk-panel-panel-box">
+        <p>I have been an art director and designer of editorial and advertising content at a number of companies and newsweeklies since 1994. I also created probono design for nonprofits such as 2Gyrlz and PNCA.</p>
     </div>
     <div class="uk-heading-divider"></div>
-    <div class="uk-container">
-        <div class="uk-grid-width-small-1-2 uk-grid-width-medium-1-4" data-uk-grid="{gutter: 20}">
-            <div  data-uk-lightbox title="">
-                <img src="~/images/print/PNCA_2002.jpg" width="400" />
-                <p>PNCA Alumni Newsletter. Design/Content Writer/Photographer. PNCA, 2002.</p>
-            </div>
-            <div>
-                <img src="~/images/print/PNCA_2003.jpg" width="400" />
-                <p>PNCA Alumni Newsletter. Design/Content Writer/Photographer. PNCA, 2003.</p>
-            </div>
-            <div>
-                <img src="~/images/print/2GIN_2003.jpg" height="400" />
-                <p>Festival Program for Enteractive Language Festival. Design/Content Writer/Photographer. 2Gyrlz Performative Arts, 2003.</p>
-            </div>
-            <div>
-                <img src="~/images/print/2GOUT_2003.jpg" height="400" />
-                <p>Festival Program for Enteractive Language Festival. Design/Content Writer/Photographer. 2Gyrlz Performative Arts, 2003.</p>
-            </div>
-            <div>
-                <img src="~/images/print/JustOut_2007.jpg" width="400" />
-                <p>Art Director. Just Out Magazine, 2007.</p>
-            </div>
-            <div>
-                <img src="~/images/print/JustOut_2008.jpg" width="400" />
-                <p>Art Director. Just Out Magazine, 2008.</p>
-            </div>
-            <div>
-                <img src="~/images/print/JustOutEdit_2008.jpg" height="400" />
-                <p>Art Director. Just Out Magazine, 2008.</p>
-            </div>
-        </div>
-    </div>
 </div>
+
+<div class="uk-cover-container slider-container" uk-height-viewport="offset-top: true">
+    <ul id="slider" class="uk-switcher">
+        <li class="uk-active uk-text-center">
+            <img src="~/images/print/PNCA_2002.jpg"  />
+        </li>
+        <li class="uk-active uk-text-center">
+            <img src="~/images/print/PNCA_2003.jpg"  />
+        </li>
+        <li class="uk-active uk-text-center">
+            <img src="~/images/print/2GIN_2003.jpg" />
+            <img src="~/images/print/2GOUT_2003.jpg" />
+        </li>
+        <li class="uk-active uk-text-center">
+            <img src="~/images/print/JustOutEdit_2008.jpg" />
+        </li>
+        <li class="uk-active uk-text-center">
+            <img src="~/images/print/JustOut_2007.jpg" />
+        </li>
+        <li class="uk-active uk-text-center">
+            <img src="~/images/print/JustOut_2008.jpg" />
+        </li>
+        <li class="uk-active">
+            <h3 class="uk-text-center">slideshow of work as Art Director | Designer</h3>
+            <!-- dummy / hidden action buttons, on one of the switcher items -->
+            <a href="javascript:;" class="uk-hidden" uk-switcher-item="previous"></a>
+            <a href="javascript:;" class="uk-hidden" uk-switcher-item="next"></a>
+        </li>
+    </ul>
+    <!-- real slidenav buttons, only one for all slides -->
+    <a href="javascript:;" class="uk-position-center-left uk-position-small uk-hidden-hover uk-slidenav-large" uk-slidenav-previous></a>
+    <a href="javascript:;" class="uk-position-center-right uk-position-small uk-hidden-hover uk-slidenav-large" uk-slidenav-next></a>
+</div>
+<!-- dummy / hidden switcher nav mandatory for the switcher to work, and also passing animation option -->
+<!-- blank links in a list matching the number of switch / slide panels -->
+<ul class="uk-hidden" uk-switcher="connect: #slider; animation: uk-animation-fade">
+    <li><a href="javascript:;"></a></li>
+    <li><a href="javascript:;"></a></li>
+    <li><a href="javascript:;"></a></li>
+    <li><a href="javascript:;"></a></li>
+    <li><a href="javascript:;"></a></li>
+    <li><a href="javascript:;"></a></li>
+    <li><a href="javascript:;"></a></li>
+</ul>

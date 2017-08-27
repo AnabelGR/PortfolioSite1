@@ -2,6 +2,42 @@
     font-family: 'PT Sans', sans-serif;
 }
 
-.linkstyle a:hover a:active a:visited {
-    text-decoration: none;
+/*
+  Drag result frame (height) in order to check cover height-viewport (navbar offset)
+*/
+
+/*nav{
+  height: 80px;
+  margin-bottom: 0 !important;
+}*/
+
+.slider-container.uk-cover-container {
+	box-sizing: border-box;
+        height: 100%;
+}
+
+.slider-container .uk-cover{
+	width: 100%;
+}
+
+#slider .uk-overlay > span {
+	display: inline-block;
+	background: rgba(0,0,0,.5);
+	padding: 30px;
+	color: #FFF;
+	font-weight: 300;
+}
+
+#slider .uk-overlay h3 {
+	font-size: 2rem;
+	font-weight: 300;
+	color: #FFF;
+}
+
+#slider .uk-overlay p {
+	font-size: 1.5rem;
+}
+
+#slider .uk-overlay p:last-child {
+	margin-bottom: 0;
 }

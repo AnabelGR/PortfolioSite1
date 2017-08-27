@@ -5,16 +5,18 @@
 
 @model IEnumerable<PortfolioDeux.Models.Repo>
 
-<div class="uk-container">
+<div class="uk-container uk-padding">
     <div class="uk-header">
         <h2>Starred GitHub Repositories</h2>
         <div class="uk-heading-divider"></div>
-        @foreach (var repo in Model)
-        {
-            <div class="uk-page">
-                <p>Name: @Html.DisplayFor(modelRepo => repo.name) | Star count: @Html.DisplayFor(modelRepo => repo.stargazers_count)</p>
-            </div>
-        }
-
+        <p>These are the top starred repositories of my student work at Epicodus.</p>
+        <div class="uk-panel">
+            @foreach (var repo in Model)
+            {
+                <div class="uk-panel">
+                    <p>@Html.DisplayFor(modelRepo => @repo.name) | Star count: @Html.DisplayFor(modelRepo => repo.stargazers_count)</p>
+                </div>
+            }
+        </div>
     </div>
 </div>

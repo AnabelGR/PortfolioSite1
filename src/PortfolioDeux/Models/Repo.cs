@@ -1,11 +1,14 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using RestSharp;
-using RestSharp.Extensions.MonoHttp;
+using RestSharp.Authenticators;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Build.Utilities;
-using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
 namespace PortfolioDeux.Models
 {
@@ -13,6 +16,7 @@ namespace PortfolioDeux.Models
     {
         public string name { get; set; }
         public int stargazers_count { get; set; }
+        public string full_name { get; set; }
 
         public static List<Repo> GetRepos()
         {

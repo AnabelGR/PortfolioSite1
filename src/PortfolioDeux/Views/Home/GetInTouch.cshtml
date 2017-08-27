@@ -3,16 +3,25 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div class="uk-container">
+<div class="uk-container uk-padding">
     <div class="uk-panel">
         <div class="uk-heading-divider">
             <h2>Contact | Freelance Inquiries</h2>
         </div>
         <div class="uk-panel">
-            <p>I currently am taking on freelance clients.</p>
+            <p>I am currently taking on freelance clients. Send me a note below and let's get to collaborating.</p>
         </div>
-        <div class="uk-display-inline-block uk-padding">
-            <p>contact form to come</p>
-        </div>
+        <form class="uk-form uk-form-stacked">
+                <div class="uk-form-row uk-form-controls-text">
+                    <label class="uk-form-label" for="name">Name:</label>
+                    <input type="text" placeholder="name" class="uk-form-width-large" />
+                    <label class="uk-form-label" for="email">Email:</label>
+                    <input type="text" placeholder="email" class="uk-form-width-large" />
+                    <label class="uk-form-label" for="phone">Phone:</label>
+                    <input type="text" placeholder="phone" class="uk-form-width-large" />
+                    <label class="uk-form-label" for="details">Details:</label>
+                    <textarea type="text" placeholder="details" class="uk-form-width-large" /></textarea>
+                    <p><button>Send</button></p>
+        </form>
     </div>
 </div>

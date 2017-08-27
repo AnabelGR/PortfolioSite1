@@ -3,19 +3,28 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <link href="~/CSS/styles.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
-    <script src="~/JS/scripts.js"></script>
-    <!-- UIkit CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.28/css/uikit.min.css" />
-
     <!-- jQuery is required -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.28/css/uikit.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.28/css/components/slideshow.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.28/css/components/slidenav.css" />
+
+
 
     <!-- UIkit JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.28/js/uikit.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.28/js/uikit-icons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.4/js/components/grid.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.4/js/components/slideshow.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.4/js/core/grid.js"></script>
+
     <script src="https://use.fontawesome.com/c3a95916f1.js"></script>
+    <link href="~/CSS/styles.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <script src="~/JS/scripts.js"></script>
+
 
     <title>@ViewBag.Title</title>
 </head>
@@ -49,11 +58,11 @@
                 <li>@Html.ActionLink("bio", "Bio", "Home")</li>
                 <li>@Html.ActionLink("get in touch", "GetInTouch", "Home")</li>
                 <li class="uk-nav-divider"></li>
-                <li class="uk-nav-header">links</li>
+                <li class="uk-nav-header">hosted portfolios</li>
                 <li class="fa-ul">
-                    <p><a href="https://www.linkedin.com/in/anabel-ramirez"><i class="fa fa-linkedin"></i></a><br /><a href="https://www.behance.net/amatorah"> <i class="fa fa-behance"></i> </a>   </p>
-  
-                </li>
+                <li><a href="https://www.linkedin.com/in/anabel-ramirez"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://www.github.com/AnabelGR"> <i class="fa fa-github"></i> </a></li>
+                <li><a href="https://www.behance.net/amatorah"> <i class="fa fa-behance"></i> </a></li>
             </ul>
         </div>
     </div>
