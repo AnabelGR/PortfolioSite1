@@ -1,5 +1,5 @@
---temp-output:C:\Users\Anabel\Desktop\PortfolioDeux\src\PortfolioDeux\obj\Debug\netcoreapp1.0\
---out:C:\Users\Anabel\Desktop\PortfolioDeux\src\PortfolioDeux\bin\Debug\netcoreapp1.0\PortfolioDeux.dll
+--temp-output:C:\Users\Anabel\Documents\Visual Studio 2015\Projects\PortfolioDeux\src\PortfolioDeux\obj\Debug\netcoreapp1.0\
+--out:C:\Users\Anabel\Documents\Visual Studio 2015\Projects\PortfolioDeux\src\PortfolioDeux\bin\Debug\netcoreapp1.0\PortfolioDeux.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -218,13 +218,13 @@
 --reference:C:\Users\Anabel\.nuget\packages\System.Xml.XDocument\4.3.0\ref\netstandard1.3\System.Xml.XDocument.dll
 --reference:C:\Users\Anabel\.nuget\packages\System.Xml.XmlDocument\4.0.1\ref\netstandard1.3\System.Xml.XmlDocument.dll
 --reference:C:\Users\Anabel\.nuget\packages\System.Xml.XmlSerializer\4.0.11\ref\netstandard1.3\System.Xml.XmlSerializer.dll
---resource:"C:\Users\Anabel\Desktop\PortfolioDeux\src\PortfolioDeux\obj\Debug\netcoreapp1.0\PortfolioDeuxdotnet-compile.deps.json",PortfolioDeux.deps.json
-C:\Users\Anabel\Desktop\PortfolioDeux\src\PortfolioDeux\Program.cs
-C:\Users\Anabel\Desktop\PortfolioDeux\src\PortfolioDeux\Startup.cs
-C:\Users\Anabel\Desktop\PortfolioDeux\src\PortfolioDeux\Controllers\HomeController.cs
-C:\Users\Anabel\Desktop\PortfolioDeux\src\PortfolioDeux\Controllers\PortfolioController.cs
-C:\Users\Anabel\Desktop\PortfolioDeux\src\PortfolioDeux\Models\ApplicationUser.cs
-C:\Users\Anabel\Desktop\PortfolioDeux\src\PortfolioDeux\Models\Contact.cs
-C:\Users\Anabel\Desktop\PortfolioDeux\src\PortfolioDeux\Models\EnvironmentVariables.cs
-C:\Users\Anabel\Desktop\PortfolioDeux\src\PortfolioDeux\Models\PortfolioDeuxDbContext.cs
-C:\Users\Anabel\Desktop\PortfolioDeux\src\PortfolioDeux\Models\Repo.cs
+--resource:"C:\Users\Anabel\Documents\Visual Studio 2015\Projects\PortfolioDeux\src\PortfolioDeux\obj\Debug\netcoreapp1.0\PortfolioDeuxdotnet-compile.deps.json",PortfolioDeux.deps.json
+C:\Users\Anabel\Documents\Visual Studio 2015\Projects\PortfolioDeux\src\PortfolioDeux\Program.cs
+C:\Users\Anabel\Documents\Visual Studio 2015\Projects\PortfolioDeux\src\PortfolioDeux\Startup.cs
+C:\Users\Anabel\Documents\Visual Studio 2015\Projects\PortfolioDeux\src\PortfolioDeux\Controllers\HomeController.cs
+C:\Users\Anabel\Documents\Visual Studio 2015\Projects\PortfolioDeux\src\PortfolioDeux\Controllers\PortfolioController.cs
+C:\Users\Anabel\Documents\Visual Studio 2015\Projects\PortfolioDeux\src\PortfolioDeux\Models\ApplicationUser.cs
+C:\Users\Anabel\Documents\Visual Studio 2015\Projects\PortfolioDeux\src\PortfolioDeux\Models\Contact.cs
+C:\Users\Anabel\Documents\Visual Studio 2015\Projects\PortfolioDeux\src\PortfolioDeux\Models\EnvironmentVariables.cs
+C:\Users\Anabel\Documents\Visual Studio 2015\Projects\PortfolioDeux\src\PortfolioDeux\Models\PortfolioDeuxDbContext.cs
+C:\Users\Anabel\Documents\Visual Studio 2015\Projects\PortfolioDeux\src\PortfolioDeux\Models\Repo.cs

@@ -7,8 +7,8 @@
 -debug:full
 -nostdlib
 -nologo
-"C:\Users\Anabel\Desktop\PortfolioDeux\src\PortfolioDeux\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
--out:"C:\Users\Anabel\Desktop\PortfolioDeux\src\PortfolioDeux\bin\Debug\netcoreapp1.0\PortfolioDeux.dll"
+"C:\Users\Anabel\Documents\Visual Studio 2015\Projects\PortfolioDeux\src\PortfolioDeux\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
+-out:"C:\Users\Anabel\Documents\Visual Studio 2015\Projects\PortfolioDeux\src\PortfolioDeux\bin\Debug\netcoreapp1.0\PortfolioDeux.dll"
 -r:"C:\Users\Anabel\.nuget\packages\Microsoft.ApplicationInsights\2.1.0\lib\dotnet5.4\Microsoft.ApplicationInsights.dll"
 -r:"C:\Users\Anabel\.nuget\packages\Microsoft.ApplicationInsights.AspNetCore\1.0.0\lib\netstandard1.6\Microsoft.ApplicationInsights.AspNetCore.dll"
 -r:"C:\Users\Anabel\.nuget\packages\Microsoft.AspNetCore.Antiforgery\1.0.1\lib\netstandard1.3\Microsoft.AspNetCore.Antiforgery.dll"
@@ -214,13 +214,13 @@
 -r:"C:\Users\Anabel\.nuget\packages\System.Xml.XDocument\4.3.0\ref\netstandard1.3\System.Xml.XDocument.dll"
 -r:"C:\Users\Anabel\.nuget\packages\System.Xml.XmlDocument\4.0.1\ref\netstandard1.3\System.Xml.XmlDocument.dll"
 -r:"C:\Users\Anabel\.nuget\packages\System.Xml.XmlSerializer\4.0.11\ref\netstandard1.3\System.Xml.XmlSerializer.dll"
--resource:"C:\Users\Anabel\Desktop\PortfolioDeux\src\PortfolioDeux\obj\Debug\netcoreapp1.0\PortfolioDeuxdotnet-compile.deps.json",PortfolioDeux.deps.json
-"C:\Users\Anabel\Desktop\PortfolioDeux\src\PortfolioDeux\Program.cs"
-"C:\Users\Anabel\Desktop\PortfolioDeux\src\PortfolioDeux\Startup.cs"
-"C:\Users\Anabel\Desktop\PortfolioDeux\src\PortfolioDeux\Controllers\HomeController.cs"
-"C:\Users\Anabel\Desktop\PortfolioDeux\src\PortfolioDeux\Controllers\PortfolioController.cs"
-"C:\Users\Anabel\Desktop\PortfolioDeux\src\PortfolioDeux\Models\ApplicationUser.cs"
-"C:\Users\Anabel\Desktop\PortfolioDeux\src\PortfolioDeux\Models\Contact.cs"
-"C:\Users\Anabel\Desktop\PortfolioDeux\src\PortfolioDeux\Models\EnvironmentVariables.cs"
-"C:\Users\Anabel\Desktop\PortfolioDeux\src\PortfolioDeux\Models\PortfolioDeuxDbContext.cs"
-"C:\Users\Anabel\Desktop\PortfolioDeux\src\PortfolioDeux\Models\Repo.cs"
+-resource:"C:\Users\Anabel\Documents\Visual Studio 2015\Projects\PortfolioDeux\src\PortfolioDeux\obj\Debug\netcoreapp1.0\PortfolioDeuxdotnet-compile.deps.json",PortfolioDeux.deps.json
+"C:\Users\Anabel\Documents\Visual Studio 2015\Projects\PortfolioDeux\src\PortfolioDeux\Program.cs"
+"C:\Users\Anabel\Documents\Visual Studio 2015\Projects\PortfolioDeux\src\PortfolioDeux\Startup.cs"
+"C:\Users\Anabel\Documents\Visual Studio 2015\Projects\PortfolioDeux\src\PortfolioDeux\Controllers\HomeController.cs"
+"C:\Users\Anabel\Documents\Visual Studio 2015\Projects\PortfolioDeux\src\PortfolioDeux\Controllers\PortfolioController.cs"
+"C:\Users\Anabel\Documents\Visual Studio 2015\Projects\PortfolioDeux\src\PortfolioDeux\Models\ApplicationUser.cs"
+"C:\Users\Anabel\Documents\Visual Studio 2015\Projects\PortfolioDeux\src\PortfolioDeux\Models\Contact.cs"
+"C:\Users\Anabel\Documents\Visual Studio 2015\Projects\PortfolioDeux\src\PortfolioDeux\Models\EnvironmentVariables.cs"
+"C:\Users\Anabel\Documents\Visual Studio 2015\Projects\PortfolioDeux\src\PortfolioDeux\Models\PortfolioDeuxDbContext.cs"
+"C:\Users\Anabel\Documents\Visual Studio 2015\Projects\PortfolioDeux\src\PortfolioDeux\Models\Repo.cs"
